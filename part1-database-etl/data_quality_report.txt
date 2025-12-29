@@ -1,0 +1,18 @@
+CUSTOMERS DATA QUALITY REPORT
+processed: 26
+duplicates: 1
+missing: 0
+loaded: 25
+
+PRODUCTS DATA QUALITY REPORT
+processed: 20
+duplicates: 0
+missing: 0
+loaded: 0
+
+SALES DATA QUALITY REPORT
+processed: 41
+duplicates: 0
+missing: 0
+loaded: 0
+
