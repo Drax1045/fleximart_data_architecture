@@ -20,54 +20,51 @@ OLAP analytics
 
 The project is built to closely reflect real-world data engineering workflows used in production systems.
 
-🧱 Architecture at a Glance
-Raw CSV Files
-│
-▼
-ETL Pipeline (Python + Pandas)
-│
-▼
-MySQL Operational Database
-│
-▼
-Business Queries (SQL)
-│
-▼
-MongoDB (Flexible Product Catalog)
-│
-▼
-Data Warehouse (Star Schema)
-│
-▼
-OLAP Analytics & Reports
+# FlexiMart Data Architecture
 
-📁 Repository Structure
+## Architecture at a Glance
+
+- Raw CSV Files  
+- ETL Pipeline (Python + Pandas)  
+- MySQL Operational Database  
+- Business Queries (SQL)  
+- MongoDB (Flexible Product Catalog)  
+- Data Warehouse (Star Schema)  
+- OLAP Analytics & Reports  
+
+---
+
+## Repository Structure
+
+
+
 fleximart_data_architecture/
 │
 ├── data/
-│ ├── customers_raw.csv
-│ ├── products_raw.csv
-│ └── sales_raw.csv
+│   ├── customers_raw.csv
+│   ├── products_raw.csv
+│   └── sales_raw.csv
 │
 ├── part1-database-etl/
-│ ├── etl_pipeline.py
-│ ├── schema_documentation.md
-│ ├── business_queries.sql
-│ ├── data_quality_report.txt
-│ └── requirements.txt
+│   ├── etl_pipeline.py
+│   ├── schema_documentation.md
+│   ├── business_queries.sql
+│   ├── data_quality_report.txt
+│   └── requirements.txt
 │
 ├── part2-nosql/
-│ ├── nosql_analysis.md
-│ ├── mongodb_operations.js
-│ └── products_catalog.json
+│   ├── nosql_analysis.md
+│   ├── mongodb_operations.js
+│   └── products_catalog.json
 │
 ├── part3-datawarehouse/
-│ ├── star_schema_design.md
-│ ├── warehouse_schema.sql
-│ ├── warehouse_data.sql
-│ └── analytics_queries.sql
+│   ├── star_schema_design.md
+│   ├── warehouse_schema.sql
+│   ├── warehouse_data.sql
+│   └── analytics_queries.sql
 │
 └── README.md
+
 
 🧪 Part 1: ETL Pipeline & Relational Database
 🔹 Key Features
